@@ -1,0 +1,89 @@
+@charset "utf-8";
+body,html,div,img{
+				margin: 0;
+				padding: 0;
+			}
+			#box{
+				width: 320px;
+				height: 568px;
+				position: absolute;
+				left: 500px;
+				top: 50px;
+				overflow: hidden;
+			}
+			#box p{
+				position: absolute;
+				left: 0;
+				top: 0;
+				margin: 0;
+				z-index: 10;
+			}
+			#start{
+				width: 320px;
+				height: 568px;
+				background: url(../image/开始背景.png) no-repeat center;
+			}
+			#kaishi{
+				width: 100px;
+				height: 20px;
+				margin: 500px 0 0 110px;
+			}
+			#main{
+				width: 320px;
+				height: 568px;
+				background: url(../image/background_1.png) center;
+				position: relative;
+				left: 0;
+				top: 0;
+			}
+			#myPlane{
+				position: absolute;
+				left: 127px;
+				top: 480px;
+				display: none;
+			}
+			#tanchu{
+				width: 160px;
+				height: 80px;
+				position: absolute;
+				left: 80px;
+				top: 250px;
+				text-align: center;
+				background: #B4B8B9;
+				line-height: 40px;
+				display: none;
+				z-index: 10;
+			}
+			#esc{
+				width: 160px;
+				height: 250px;
+				position: absolute;
+				left: 80px;
+				top: 100px;
+				background: #7A7D7D;
+				text-align: center;
+				display: none;
+				z-index: 10;
+				opacity: 0.5;
+				padding-top: 50px;
+			}
+			.bao{
+				width: 10px;
+				height: 10px;
+				position: absolute;
+			}
+			.bao1{
+				background: red;
+			}
+			.bao2{
+				background: blue;
+			}
+			.bao3{
+				background: green;
+			}
+			.myZidans{
+				width: 6px;
+				height: 14px;
+				position: absolute;
+				background: url(../image/bullet1.png);
+			}
